@@ -1,0 +1,271 @@
+{
+    "object": [
+        {
+            "name": "building",
+            "language": {
+                "eng": "building",
+                "pol": "budynek"
+            }
+        },
+        {
+            "name": "camel",
+            "language": {
+                "eng": "camel",
+                "pol": "wielbłąd"
+            }
+        },
+        {
+            "name": "campfire",
+            "language": {
+                "eng": "campfire",
+                "pol": "ognisko"
+            }
+        },
+        {
+            "name": "chicken",
+            "language": {
+                "eng": "chicken",
+                "pol": "kurczak"
+            }
+        },
+        {
+            "name": "cow",
+            "language": {
+                "eng": "cow",
+                "pol": "krowa"
+            }
+        },
+        {
+            "name": "crafting-table",
+            "language": {
+                "eng": "crafting table",
+                "pol": "stół rzemieślniczy"
+            }
+        },
+        {
+            "name": "donkey",
+            "language": {
+                "eng": "donkey",
+                "pol": "osioł"
+            }
+        },
+        {
+            "name": "golem",
+            "language": {
+                "eng": "golem",
+                "pol": "golem"
+            }
+        },
+        {
+            "name": "llama",
+            "language": {
+                "eng": "llama",
+                "pol": "lama"
+            }
+        },
+        {
+            "name": "pickaxe",
+            "language": {
+                "eng": "pickaxe",
+                "pol": "oskard"
+            }
+        },
+        {
+            "name": "pig",
+            "language": {
+                "eng": "pig",
+                "pol": "świnia"
+            }
+        },
+        {
+            "name": "pufferfish",
+            "language": {
+                "eng": "pufferfish",
+                "pol": "rozdymka"
+            }
+        },
+        {
+            "name": "sheep",
+            "language": {
+                "eng": "sheep",
+                "pol": "owce"
+            }
+        },
+        {
+            "name": "tree",
+            "language": {
+                "eng": "tree",
+                "pol": "drzewo"
+            }
+        },
+        {
+            "name": "turtle",
+            "language": {
+                "eng": "turtle",
+                "pol": "żółw"
+            }
+        },
+        {
+            "name": "villager",
+            "language": {
+                "eng": "villager",
+                "pol": "wieśniak"
+            }
+        }
+    ],
+    "player": [
+        {
+            "name": "cooking",
+            "position": "static",
+            "language": {
+                "eng": "cooked for",
+                "pol": "ugotowane dla"
+            }
+        },
+        {
+            "name": "dancing",
+            "position": "dynamic",
+            "language": {
+                "eng": "danced",
+                "pol": "tańczył"
+            }
+        },
+        {
+            "name": "flying",
+            "position": "dynamic",
+            "language": {
+                "eng": "flew",
+                "pol": "latający"
+            }
+        },
+        {
+            "name": "high-fiving",
+            "position": "static",
+            "language": {
+                "eng": "high-fived",
+                "pol": "przybić piątkę"
+            }
+        },
+        {
+            "name": "hugging",
+            "position": "static",
+            "language": {
+                "eng": "hugged",
+                "pol": "przytulił"
+            }
+        },
+        {
+            "name": "jumping",
+            "position": "dynamic",
+            "language": {
+                "eng": "jumped",
+                "pol": "skoczył"
+            }
+        },
+        {
+            "name": "kissing",
+            "position": "static",
+            "language": {
+                "eng": "kissed",
+                "pol": "pocałował"
+            }
+        },
+        {
+            "name": "lifting",
+            "position": "below",
+            "language": {
+                "eng": "lifted",
+                "pol": "wzniesiony"
+            }
+        },
+        {
+            "name": "punching",
+            "position": "static",
+            "language": {
+                "eng": "punched",
+                "pol": "uderzył"
+            }
+        },
+        {
+            "name": "sitting",
+            "position": "dynamic",
+            "language": {
+                "eng": "sat",
+                "pol": "siedział"
+            }
+        },
+        {
+            "name": "sleeping",
+            "position": "dynamic",
+            "language": {
+                "eng": "slept",
+                "pol": "spał"
+            }
+        },
+        {
+            "name": "sliding",
+            "position": "dynamic",
+            "language": {
+                "eng": "slid",
+                "pol": "ślizgał się"
+            }
+        },
+        {
+            "name": "slipping",
+            "position": "dynamic",
+            "language": {
+                "eng": "slipped",
+                "pol": "poślizgnął się"
+            }
+        },
+        {
+            "name": "smelling",
+            "position": "static",
+            "language": {
+                "eng": "smelled",
+                "pol": "pachniało"
+            }
+        },
+        {
+            "name": "talking",
+            "position": "static",
+            "language": {
+                "eng": "talked to",
+                "pol": "rozmawiałem z"
+            }
+        }
+    ],
+    "relativeness": [
+        {
+            "name": "above",
+            "language": {
+                "eng": "above",
+                "pol": "powyżej"
+            }
+        },
+        {
+            "name": "beside",
+            "language": {
+                "eng": "beside",
+                "pol": "obok"
+            }
+        },
+        {
+            "name": "below",
+            "language": {
+                "eng": "below",
+                "pol": "poniżej"
+            }
+        }
+    ],
+    "bookends": {
+        "start": {
+            "eng": "Steve is ready. What will he do today?",
+            "pol": "Steve jest gotowy. Co będzie dzisiaj robił?"
+        },
+        "end": {
+            "eng": "Steve had a good day.",
+            "pol": "Steve miał dobry dzień."
+        }
+    }
+}

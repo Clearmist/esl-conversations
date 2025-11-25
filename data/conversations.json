@@ -1,0 +1,540 @@
+[
+    {
+        "title": "Greetings",
+        "entries": [
+            {
+                "title": "Keeping busy",
+                "stub": "greetings-keeping-busy",
+                "img": "greetings.at-the-bus.webp",
+                "speech": [
+                    {
+                        "eng": "Hi! How's it going?",
+                        "pol": "Cześć! Jak leci?"
+                    },
+                    {
+                        "right": true,
+                        "eng": "I'm doing well. How are you?",
+                        "pol": "Mam się dobrze. A ty?"
+                    },
+                    {
+                        "eng": "Pretty good, thanks! But busy!",
+                        "pol": "Całkiem nieźle, dzięki! Ale zajęty!"
+                    },
+                    {
+                        "right": true,
+                        "eng": "I am busy, too. I started studying English.",
+                        "pol": "Ja też jestem zajęty. Zacząłem uczyć się angielskiego."
+                    },
+                    {
+                        "eng": "That's great! English is very useful.",
+                        "pol": "Świetnie! Angielski jest bardzo przydatny."
+                    },
+                    {
+                        "right": true,
+                        "eng": "What is keeping you busy?",
+                        "pol": "Co Cię zajmuje?"
+                    },
+                    {
+                        "eng": "I'm building LEGO sets!",
+                        "pol": "Buduję zestawy LEGO!"
+                    }
+                ]
+            },
+            {
+                "title": "Howdy, partner!",
+                "stub": "greetings-howdy-partner",
+                "img": "greetings.howdy-partner.webp",
+                "speech": [
+                    {
+                        "eng": "Well, howdy partner!",
+                        "pol": "No cóż, cześć partnerze!"
+                    },
+                    {
+                        "right": true,
+                        "eng": "Hello neighbor.",
+                        "pol": "Witaj sąsiedzie."
+                    },
+                    {
+                        "eng": "Have a good day at work.",
+                        "pol": "Miłego dnia w pracy."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Thanks. You, too.",
+                        "pol": "Dziękuję. Tobie również."
+                    },
+                    {
+                        "eng": "Yeah man, I can feel today'll be good.",
+                        "pol": "Tak, stary, czuję, że dzisiaj będzie dobrze."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Absolutely, brother.",
+                        "pol": "Oczywiście, bracie."
+                    }
+                ]
+            },
+            {
+                "title": "Let's meet up",
+                "stub": "greetings-lets-meet-up",
+                "img": "greetings.lets-meet-up.webp",
+                "speech": [
+                    {
+                        "eng": "Hi! What have you been up to?",
+                        "pol": "Cześć! Co porabiasz?"
+                    },
+                    {
+                        "right": true,
+                        "eng": "I've started dancing lessons on Thursdays.",
+                        "pol": "Zacząłem chodzić na lekcje tańca w czwartki."
+                    },
+                    {
+                        "eng": "That's great! I've wanted to find a dancing class.",
+                        "pol": "Świetnie! Chciałam znaleźć zajęcia taneczne."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Then come with me. I'd love to have you join.",
+                        "pol": "To chodź ze mną. Będzie mi miło, jeśli dołączysz."
+                    },
+                    {
+                        "eng": "I'll definitely join you.",
+                        "pol": "Na pewno do Was dołączę."
+                    },
+                    {
+                        "right": true,
+                        "eng": "I'll see you this Thursday.",
+                        "pol": "Do zobaczenia w czwartek."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Offering help",
+        "entries": [
+            {
+                "title": "In the kitchen",
+                "stub": "offering-help-in-the-kitchen",
+                "img": "offering-help.in-the-kitchen.webp",
+                "speech": [
+                    {
+                        "eng": "This is a lot of work.",
+                        "pol": "To dużo pracy."
+                    },
+                    {
+                        "right": true,
+                        "eng": "I'll help make dinner!",
+                        "pol": "Pomogę przygotować kolację!"
+                    },
+                    {
+                        "eng": "Thanks. I need some help.",
+                        "pol": "Dziękuję. Potrzebuję pomocy."
+                    },
+                    {
+                        "right": true,
+                        "eng": "You're welcome. What should I do?",
+                        "pol": "Proszę bardzo. Co mam zrobić?"
+                    },
+                    {
+                        "eng": "Hmm, please cut some vegetables.",
+                        "pol": "Hmm, proszę pokrój trochę warzyw."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Okay.",
+                        "pol": "Dobra."
+                    }
+                ]
+            },
+            {
+                "title": "Studying",
+                "stub": "offering-help-studying",
+                "img": "offering-help.studying.webp",
+                "speech": [
+                    {
+                        "eng": "What should we study? You pick.",
+                        "pol": "Co powinniśmy studiować? Wybór należy do Ciebie."
+                    },
+                    {
+                        "right": true,
+                        "eng": "I want to practice math.",
+                        "pol": "Chcę ćwiczyć matematykę."
+                    },
+                    {
+                        "eng": "Okay. Then I will practice English.",
+                        "pol": "Dobrze. W takim razie poćwiczę angielski."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Afterward I'll help you with math.",
+                        "pol": "Potem pomogę ci z matematyką."
+                    },
+                    {
+                        "eng": "And I'll help you with English!",
+                        "pol": "I pomogę ci z angielskim!"
+                    },
+                    {
+                        "right": true,
+                        "eng": "Teamwork!",
+                        "pol": "Praca zespołowa!"
+                    }
+                ]
+            },
+            {
+                "title": "Finding vegetables",
+                "stub": "offering-help-finding-vegetables",
+                "img": "offering-help.finding-vegetables.webp",
+                "speech": [
+                    {
+                        "eng": "Do you need some help?",
+                        "pol": "Potrzebujesz pomocy?"
+                    },
+                    {
+                        "right": true,
+                        "eng": "Yes, I think I'm lost.",
+                        "pol": "Tak, myślę, że się zgubiłem."
+                    },
+                    {
+                        "eng": "What are you looking for?",
+                        "pol": "Czego Pan szuka?"
+                    },
+                    {
+                        "right": true,
+                        "eng": "I'm looking for vegetables.",
+                        "pol": "Szukam warzyw."
+                    },
+                    {
+                        "eng": "Okay, I'll show you.",
+                        "pol": "Dobrze, pokażę ci."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Thank you.",
+                        "pol": "Dziękuję."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Inquiring",
+        "entries": [
+            {
+                "title": "Your normal day",
+                "stub": "inquiring-your-normal-day",
+                "img": "inquiring.your-normal-day.webp",
+                "speech": [
+                    {
+                        "right": true,
+                        "eng": "What's your normal day like?",
+                        "pol": "Jak wygląda Twój normalny dzień?"
+                    },
+                    {
+                        "eng": "I jog in the morning then go to work.",
+                        "pol": "Rano biegam, a potem idę do pracy."
+                    },
+                    {
+                        "right": true,
+                        "eng": "That's interesting. I need to exercise.",
+                        "pol": "To ciekawe. Muszę ćwiczyć."
+                    },
+                    {
+                        "eng": "It's great. I love jogging to the beach.",
+                        "pol": "To wspaniale. Uwielbiam biegać na plażę."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Exercise then work is a good schedule.",
+                        "pol": "Najpierw ćwiczenia, potem praca – to dobry harmonogram."
+                    },
+                    {
+                        "eng": "I think so. It works well for me.",
+                        "pol": "Myślę, że tak. U mnie działa dobrze."
+                    }
+                ]
+            },
+            {
+                "title": "What's for breakfast?",
+                "stub": "inquiring-whats-for-breakfast",
+                "img": "inquiring.whats-for-breakfast.webp",
+                "speech": [
+                    {
+                        "right": true,
+                        "eng": "What do you like to eat for breakfast?",
+                        "pol": "Co lubisz jeść na śniadanie?"
+                    },
+                    {
+                        "eng": "I like eating a burrito with potatoes and eggs inside.",
+                        "pol": "Lubię jeść burrito z ziemniakami i jajkami w środku."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Burritos are so tasty.",
+                        "pol": "Burritos są tak pyszne."
+                    },
+                    {
+                        "eng": "What about you?",
+                        "pol": "Co z tobą?"
+                    },
+                    {
+                        "right": true,
+                        "eng": "I like yogurt with fruit and granola.",
+                        "pol": "Lubię jogurt z owocami i granolą."
+                    },
+                    {
+                        "eng": "I think I will try that tomorrow.",
+                        "pol": "Myślę, że spróbuję tego jutro."
+                    }
+                ]
+            },
+            {
+                "title": "Your go-to drink",
+                "stub": "inquiring-your-go-to-drink",
+                "img": "inquiring.your-go-to-drink.webp",
+                "speech": [
+                    {
+                        "eng": "This drink smells so good...",
+                        "pol": "Ten napój pachnie tak dobrze..."
+                    },
+                    {
+                        "right": true,
+                        "eng": "What did you order?",
+                        "pol": "Co zamówiłeś?"
+                    },
+                    {
+                        "eng": "I ordered a coffee with milk. What about you?",
+                        "pol": "Zamówiłem kawę z mlekiem. A ty?"
+                    },
+                    {
+                        "right": true,
+                        "eng": "I ordered herbal tea. It always makes me feel calm.",
+                        "pol": "Zamówiłem herbatę ziołową. Zawsze mnie uspokaja."
+                    },
+                    {
+                        "eng": "Would you like to get chocolate smoothies with me later?",
+                        "pol": "Czy chciałbyś później pójść ze mną na czekoladowe koktajle?"
+                    },
+                    {
+                        "right": true,
+                        "eng": "That's a great idea! I love chocolate smoothies.",
+                        "pol": "To świetny pomysł! Uwielbiam czekoladowe koktajle."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Working",
+        "entries": [
+            {
+                "title": "Around the well",
+                "stub": "working-around-the-well",
+                "img": "working.hrrrn.webp",
+                "speech": [
+                    {
+                        "eng": "Hrrrn?",
+                        "pol": "Hej, widzisz coś?."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Hrrn.",
+                        "pol": "Jest za ciemno, żeby cokolwiek widzieć."
+                    },
+                    {
+                        "eng": "hrrrn...",
+                        "pol": "Porzućmy coś..."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Hrrrn.",
+                        "pol": "Porzućmy kurczaka."
+                    },
+                    {
+                        "eng": "Hrrrn.",
+                        "pol": "Świetny pomysł."
+                    }
+                ]
+            },
+            {
+                "title": "Counting blocks",
+                "stub": "working-block-count",
+                "img": "working.block-count.webp",
+                "speech": [
+                    {
+                        "eng": "Let's check our progress.",
+                        "pol": "Sprawdźmy nasze postępy."
+                    },
+                    {
+                        "right": true,
+                        "eng": "We have two dirt blocks.",
+                        "pol": "Mamy dwa bloki ziemne."
+                    },
+                    {
+                        "eng": "I see five stone blocks.",
+                        "pol": "Widzę pięć bloków kamiennych."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Yes. We also have four wood blocks.",
+                        "pol": "Tak. Mamy też cztery klocki drewniane."
+                    },
+                    {
+                        "eng": "We need two more dirt blocks.",
+                        "pol": "Potrzebujemy jeszcze dwóch bloków ziemi."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Okay, let's get those now.",
+                        "pol": "Dobra, to teraz je zdobądźmy."
+                    }
+                ]
+            },
+            {
+                "title": "Exploring",
+                "stub": "working-exploring",
+                "img": "working.exploring.webp",
+                "speech": [
+                    {
+                        "eng": "We got to the top!",
+                        "pol": "Dotarliśmy na szczyt!"
+                    },
+                    {
+                        "right": true,
+                        "eng": "We can see down into the valley.",
+                        "pol": "Możemy zobaczyć dolinę."
+                    },
+                    {
+                        "eng": "There is a forest.",
+                        "pol": "Jest las."
+                    },
+                    {
+                        "right": true,
+                        "eng": "I also see lakes.",
+                        "pol": "Widzę także jeziora."
+                    },
+                    {
+                        "eng": "This looks like a good place.",
+                        "pol": "Wygląda na dobre miejsce."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Let's build our base here.",
+                        "pol": "Zbudujmy tutaj naszą bazę."
+                    }
+                ]
+            },
+            {
+                "title": "Hunting squid",
+                "stub": "working-hunting-squid",
+                "img": "working.hunting-squid.webp",
+                "speech": [
+                    {
+                        "eng": "This squid will be dinner!",
+                        "pol": "Ta kałamarnica będzie obiadem!"
+                    },
+                    {
+                        "right": true,
+                        "eng": "Watch out for its ink.",
+                        "pol": "Uważaj na tusz."
+                    },
+                    {
+                        "eng": "It's too fast.",
+                        "pol": "To jest za szybkie."
+                    },
+                    {
+                        "right": true,
+                        "eng": "We need to try again.",
+                        "pol": "Musimy spróbować jeszcze raz."
+                    },
+                    {
+                        "eng": "I think a sword isn't the right tool.",
+                        "pol": "Myślę, że miecz nie jest odpowiednim narzędziem."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Let's come back with a net.",
+                        "pol": "Wróćmy z siecią."
+                    }
+                ]
+            },
+            {
+                "title": "Delivering vegetables",
+                "stub": "working-delivering-vegetables",
+                "img": "working.delivering-vegetables.webp",
+                "speech": [
+                    {
+                        "eng": "We harvested so many vegetables!",
+                        "pol": "Zebraliśmy mnóstwo warzyw!"
+                    },
+                    {
+                        "right": true,
+                        "eng": "A truck full of vegetables!",
+                        "pol": "Ciężarówka pełna warzyw!"
+                    },
+                    {
+                        "eng": "Which vegetables are we delivering?",
+                        "pol": "Jakie warzywa dostarczamy?"
+                    },
+                    {
+                        "right": true,
+                        "eng": "We have onions, carrots, turnips...",
+                        "pol": "Mamy cebulę, marchewkę, rzepę..."
+                    },
+                    {
+                        "eng": "...tomatoes, potatoes, and cabbage.",
+                        "pol": "...pomidory, ziemniaki i kapusta."
+                    },
+                    {
+                        "right": true,
+                        "eng": "Great! Let's deliver these vegetables.",
+                        "pol": "Świetnie! Dostarczmy te warzywa."
+                    }
+                ]
+            },
+            {
+                "title": "Choosing a job",
+                "stub": "working-choosing-a-job",
+                "img": "working.choosing-a-job.webp",
+                "speech": [
+                    {
+                        "eng": "Which job do I want today?",
+                        "pol": "Jaką pracę chcę dzisiaj wykonywać?"
+                    },
+                    {
+                        "eng": "I could be a farmer.",
+                        "pol": "Mogę być rolnikiem."
+                    },
+                    {
+                        "eng": "As a farmer I will grow vegetables.",
+                        "pol": "Jako rolnik będę uprawiał warzywa."
+                    },
+                    {
+                        "eng": "I could be an explorer.",
+                        "pol": "Mogę być odkrywcą."
+                    },
+                    {
+                        "eng": "As an explorer I will investigate new places.",
+                        "pol": "Jako odkrywca będę badać nowe miejsca."
+                    },
+                    {
+                        "eng": "I could be a mechanic.",
+                        "pol": "Mogę być mechanikiem."
+                    },
+                    {
+                        "eng": "As a mechanic I will fix vehicles.",
+                        "pol": "Jako mechanik naprawiam pojazdy."
+                    },
+                    {
+                        "eng": "I could be a cowboy.",
+                        "pol": "Mogę być kowbojem."
+                    },
+                    {
+                        "eng": "As a cowboy I would raise animals.",
+                        "pol": "Jako kowboj hodowałem zwierzęta."
+                    }
+                ]
+            }
+        ]
+    }
+]

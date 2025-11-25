@@ -1,0 +1,36 @@
+{
+    "name": "esl-conversations",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "deploy-prod": "netlify deploy --prod",
+        "deploy-stage": "netlify deploy",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "@mui/icons-material": "^7.3.2",
+        "@mui/material": "^7.3.2",
+        "@netlify/blobs": "^8.2.0",
+        "blobshape": "^1.0.0",
+        "bright": "^0.8.5",
+        "framer-motion": "^12.23.15",
+        "markdown-to-jsx": "^7.4.5",
+        "next": "15.5.2",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "unique-names-generator": "^4.7.1"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4.0.15",
+        "@types/node": "24.3.1",
+        "eslint": "8.57.1",
+        "eslint-config-next": "15.5.2",
+        "postcss": "^8.4.36",
+        "tailwindcss": "^4.0.15"
+    }
+}

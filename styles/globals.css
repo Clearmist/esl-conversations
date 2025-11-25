@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.content {
+  background-color: rgb(245 241 235);
+}
+
+main.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.column {
+  flex: 1 1 50%;
+  max-width: 50%;
+  background: white;
+  box-shadow: 0 6px 18px rgba(20, 30, 60, 0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+div.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+div.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+div.conversation {
+  height: 100%;
+  background-color: rgb(245 241 235);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+div.conversation div.left {
+  border-radius: 8px;
+  background-color: rgb(217 253 211);
+}
+
+div.conversation div:not(.left) {
+  border-radius: 8px;
+  background-color: white;
+  text-align: right;
+}
+
+p.study-language {
+  padding: 10px;
+  margin: 0;
+  font-size: 36px;
+}
+
+p.helper-language {
+  padding: 10px;
+  margin: 0;
+  font-size: 24px;
+}
