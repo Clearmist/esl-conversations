@@ -326,5 +326,38 @@
             "on top",
             "inside"
         ]
+    },
+    {
+        "name": "Fishing",
+        "entries": [
+            "bait",
+            "boat",
+            "bobber",
+            "bucket",
+            "dock",
+            "fish",
+            "hook",
+            "lake",
+            "life jacket",
+            "line",
+            "lure",
+            "net",
+            "river",
+            "rod",
+            "worm",
+            "bend",
+            "bite",
+            "cast",
+            "catch",
+            "clean",
+            "hold",
+            "jump",
+            "pull",
+            "reel",
+            "splash",
+            "swim",
+            "throw",
+            "tug"
+        ]
     }
 ]
