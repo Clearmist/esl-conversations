@@ -12,5 +12,6 @@
 				}
 			}
 		}
-	}
+	},
+	"postCreateCommand": "npm install -g netlify-cli && npm install"
 }
