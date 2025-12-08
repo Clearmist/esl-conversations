@@ -1,6 +1,9 @@
 {
     "prompts": [
-
+        {
+            "key": "actions",
+            "prompt": "Describe some actions."
+        },
         {
             "key": "feelings",
             "prompt": "Tell me about some feelings."
@@ -23,6 +26,48 @@
         }
     ],
     "responses": {
+        "actions": [
+            "She is dancing to the music.",
+            "They enjoy dancing in the rain.",
+            "I do exercise every morning.",
+            "Exercise helps me stay healthy.",
+            "He goes jogging in the park.",
+            "Jogging makes me feel strong.",
+            "I will deliver this letter today.",
+            "They deliver food to our house.",
+            "We harvest apples in the fall.",
+            "The farmers are harvest ready crops.",
+            "He is standing near the door.",
+            "She keeps standing in the long line.",
+            "They are talking to each other.",
+            "I like talking with my friends.",
+            "The child is sliding down the hill.",
+            "We are sliding on the ice.",
+            "He is slipping on the wet floor.",
+            "I saw her slipping on the ice.",
+            "She is smelling the flowers.",
+            "He keeps smelling the soup.",
+            "The baby is sleeping now.",
+            "They are sleeping under the stars.",
+            "She is sitting on the chair.",
+            "We are sitting by the fire.",
+            "He is lifting a heavy box.",
+            "They are lifting weights together.",
+            "She is kissing her baby goodnight.",
+            "He is kissing his dog on the head.",
+            "They are hugging after the game.",
+            "I am hugging my friend tightly.",
+            "They are high-fiving after the goal.",
+            "We enjoy high-fiving when we win.",
+            "The bird is flying across the sky.",
+            "A kite is flying in the wind.",
+            "She is dancing with her brother.",
+            "He does exercise before breakfast.",
+            "They are jogging along the beach.",
+            "I will deliver the package soon.",
+            "We are harvesting vegetables today.",
+            "The plane is flying over the city."
+        ],
         "feelings": [
             "I am happy today.",
             "She feels sad.",
