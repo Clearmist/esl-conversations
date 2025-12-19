@@ -175,7 +175,11 @@ export default function MadlibGame() {
     if (!category) return [];
 
     const used = usedWords[categoryId] || [];
-    return category.entries.filter(word => !used.includes(word));
+    const filtered = category.entries.filter(word => !used.includes(word));
+    const shuffled = [...filtered].sort(() => Math.random() - 0.5);
+    const limited = shuffled.slice(0, Math.min(12, shuffled.length));
+
+    return limited;
   };
 
   // Start a new madlib
