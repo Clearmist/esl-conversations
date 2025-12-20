@@ -9,5 +9,13 @@
             "The most {adjective} part of the day was when a {adjective} {animal} escaped from its enclosure. Everyone {past-verb} in surprise. The zookeepers used a {noun-singular} to coax it back into its home.",
             "Finally, tired but {emotion}, {custom-kid-name} went home and {past-verb} into bed."
         ]
+    },
+    {
+        "title": "A Bird in the Neighborhood",
+        "templates": [
+            "There is a {adjective} bird in our neighborhood that sits on a {noun-singular} and sings.",
+            "During the day people love to hear the {adjective} bird singing. It makes my pet {animal} feel jealous.",
+            "However, during the night the bird does not stop singing! People are trying to {present-verb} and sleep so they become {emotion} and throw {plural-noun} at the bird."
+        ]
     }
 ]
