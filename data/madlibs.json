@@ -17,5 +17,14 @@
             "During the day people love to hear the {adjective} bird singing. It makes my pet {animal} feel jealous.",
             "However, during the night the bird does not stop singing! People are trying to {present-verb} and sleep so they become {emotion} and throw {plural-noun} at the bird."
         ]
+    },
+    {
+        "title": "A Bird in the Neighborhood",
+        "templates": [
+            "My friend {custom-kid-name} has {adjective} habits! They will only eat {adjective} {food-singular}. 😅",
+            "When they {present-verb} to school they {present-verb} all of the old people and {present-verb} all of the babies.",
+            "On {day-of-the-week} mornings they brush their teeth with {noun-singular} while singing about {emotion}.",
+            "{custom-kid-name} is strange, but they make me laugh. I'm {emotion} they are my {adjective} friend!"
+        ]
     }
 ]
