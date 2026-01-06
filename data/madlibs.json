@@ -19,12 +19,21 @@
         ]
     },
     {
-        "title": "A Bird in the Neighborhood",
+        "title": "My friend",
         "templates": [
             "My friend {custom-kid-name} has {adjective} habits! They will only eat {adjective} {food-singular}. 😅",
             "When they {present-verb} to school they {present-verb} all of the old people and {present-verb} all of the babies.",
             "On {day-of-the-week} mornings they brush their teeth with {noun-singular} while singing about {emotion}.",
             "{custom-kid-name} is strange, but they make me laugh. I'm {emotion} they are my {adjective} friend!"
+        ]
+    },
+    {
+        "title": "P1",
+        "templates": [
+            "W {day-of-the-week} czułem się bardzo {adjective} i pełen {emotion}, więc {present-verb} po parku z jednym {noun-singular}.",
+            "Później {past-verb} {food-singular}, myśląc o {plural-noun}, które widziałem wczoraj.",
+            "Podczas {ing-verb} spotkałem przyjaciół, którzy przynieśli {food-plural} i śmiali się głośno.",
+            "Na koniec dnia {present-verb} do domu, bo {emotion} przypomniało mi o tym {noun-singular}."
         ]
     }
 ]
