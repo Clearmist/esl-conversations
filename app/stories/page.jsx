@@ -4,8 +4,9 @@ import { useState } from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import Paper from '@mui/material/Paper';
 import ReplyIcon from '@mui/icons-material/Reply';
 import storiesData from '../../data/stories.json';
 
@@ -19,15 +20,19 @@ const styles = {
     selectionWrapper: {
         minHeight: '100vh',
         display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'start',
-        padding: 2,
+        flexDirection: 'row',
+        padding: 4,
+        gap: 2,
     },
     selectionContainer: {
         display: 'flex',
         gap: 2,
+    },
+    storySelection: {
+        display: 'flex',
+        flexDirection: 'column',
         flexWrap: 'wrap',
+        justifyContent: 'start',
     },
     titleHeader: {
         paddingLeft: 10,
@@ -135,30 +140,38 @@ export default function Stories() {
     if (selectedStory === null) {
         return (
             <Box sx={styles.selectionWrapper}>
-                <Typography variant="h4" gutterBottom>
-                    Select a Story
-                </Typography>
-                <Box sx={styles.selectionContainer}>
-                    {storiesData.map((story, index) => (
-                        <Card
-                            key={index}
-                            sx={styles.storyCard}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                e.stopPropagation();
+                <Paper sx={{ height: '50%', width: '50%' }}>
+                    <img src="/images/stories/notebook.jpg" style={{ width: '100%', height: '100%' }} />
+                </Paper>
+                <Box sx={styles.storySelection}>
+                    <Typography variant="h5" gutterBottom>
+                        Repair a clumsy naturalist's notebook.
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                        Починить неуклюжий блокнот натуралиста.
+                    </Typography>
+                    <Box sx={styles.selectionContainer}>
+                        {storiesData.map((story, index) => (
+                            <Card
+                                key={index}
+                                sx={styles.storyCard}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
 
-                                console.debug(`Selected story: ${story.name} (${index}).`);
+                                    console.debug(`Selected story: ${story.name} (${index}).`);
 
-                                setSelectedStory(index);
-                                setInsertedWords({});
-                                setDraggedWord(null);
-                            }}
-                        >
-                            <CardContent sx={{ cursor: 'pointer' }}>
-                                <Typography variant="h6">{story.name}</Typography>
-                            </CardContent>
-                        </Card>
-                    ))}
+                                    setSelectedStory(index);
+                                    setInsertedWords({});
+                                    setDraggedWord(null);
+                                }}
+                            >
+                                <CardContent sx={{ cursor: 'pointer' }}>
+                                    <Typography variant="h6">{story.name}</Typography>
+                                </CardContent>
+                            </Card>
+                        ))}
+                    </Box>
                 </Box>
             </Box>
         );
