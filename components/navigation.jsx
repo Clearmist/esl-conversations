@@ -62,6 +62,7 @@ export default function Navigation() {
               <ListItem sx={styles.link} onClick={() => router.push(`/definitions`)}>Definitions</ListItem>
               <ListItem sx={styles.link} onClick={() => router.push(`/chooser`)}>Conversation chooser</ListItem>
               <ListItem sx={styles.link} onClick={() => router.push(`/madlib`)}>Madlib Game</ListItem>
+              <ListItem sx={styles.link} onClick={() => router.push(`/stories`)}>Stories</ListItem>
             </List>
           </Box>
           <Divider />

@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Bear's day",
+        "image": "bear.jpg",
+        "sentences": [
+            {
+                "english": "I watched a wild bear for a day and wrote notes. My notes got damaged! Help me fix my notes.",
+                "translation": "Я наблюдал за диким медведем целый день и писал заметки. Мои записи повредились! Помогите мне исправить мои записи."
+            },
+            {
+                "english": "I can hear Bear snoring.",
+                "translation": "Я слышу храп Медведя."
+            },
+            {
+                "english": "Bear is {{word}} in its bed."
+            },
+            {
+                "english": "Bear wakes up and goes to the kitchen.",
+                "translation": "Медведь просыпается и идет на кухню."
+            },
+            {
+                "english": "Bear is {{word}} salmon on the stovetop."
+            },
+            {
+                "english": "Bear is {{word}} breakfast at the table."
+            },
+            {
+                "english": "After breakfast Bear is {{word}} the plate and fork."
+            },
+            {
+                "english": "Bear sits at a desk and opens his school books.",
+                "translation": "Медведь садится за парту и открывает школьные учебники."
+            },
+            {
+                "english": "Bear is {{word}} math and science."
+            },
+            {
+                "english": "Bear closes his books and starts to talk to his stuffed animal.",
+                "translation": "Медведь закрывает книги и начинает разговаривать со своей плюшевой игрушкой."
+            },
+            {
+                "english": "Bear is {{word}} English."
+            },
+            {
+                "english": "Bear puts on waterproof boots and gets his fishing rod.",
+                "translation": "Медведь надевает водонепроницаемые ботинки и достает удочку."
+            },
+            {
+                "english": "Bear is {{word}} to the river."
+            },
+            {
+                "english": "At the river Bear decides to get into the water.",
+                "translation": "У реки Медведь решает зайти в воду."
+            },
+            {
+                "english": "Bear is {{word}} in the river!"
+            },
+            {
+                "english": "Bear gets out of the water then walks to a chair by the riverbank and takes his fishing rod.",
+                "translation": "Медведь выходит из воды, подходит к стулу на берегу реки и берет свою удочку."
+            },
+            {
+                "english": "Bear is {{word}} in a chair by the river."
+            },
+            {
+                "english": "Bear is {{word}} his fishing rod."
+            },
+            {
+                "english": "Bear is {{word}} his fishing line into the river."
+            },
+            {
+                "english": "Bear feels a tug on his fishing line!",
+                "translation": "Медведь почувствовал, как дернулась леска!"
+            },
+            {
+                "english": "Bear is {{word}} in a fish."
+            },
+            {
+                "english": "Bear has caught a fish! It is a big salmon. Bear is so happy.",
+                "translation": "Медведь поймал рыбу! Это большой лосось. Медведь так счастлив."
+            }
+        ],
+        "words": [
+            "sleeping",
+            "eating",
+            "cooking",
+            "fishing",
+            "cleaning",
+            "studying",
+            "reviewing",
+            "learning",
+            "practicing",
+            "walking",
+            "splashing",
+            "swimming",
+            "sitting",
+            "holding",
+            "casting",
+            "pulling",
+            "tugging",
+            "reeling"
+        ]
+    }
+]

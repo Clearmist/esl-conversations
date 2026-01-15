@@ -1,0 +1,297 @@
+'use client';
+
+import { useState } from 'react';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
+import ReplyIcon from '@mui/icons-material/Reply';
+import storiesData from '../../data/stories.json';
+
+const styles = {
+    container: {
+        minHeight: '100vh',
+        maxHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+    },
+    selectionWrapper: {
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'start',
+        padding: 2,
+    },
+    selectionContainer: {
+        display: 'flex',
+        gap: 2,
+        flexWrap: 'wrap',
+    },
+    titleHeader: {
+        paddingLeft: 10,
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    storyCard: {
+        cursor: 'pointer',
+        '&:hover': {
+            boxShadow: 6,
+            transform: 'translateY(-4px)',
+        },
+        transition: 'all 0.3s ease',
+    },
+    contentContainer: {
+        display: 'flex',
+        gap: 3,
+        marginTop: 2,
+        minHeight: 'calc(100vh - 100px)',
+    },
+    leftColumn: (imageName) => ({
+        flex: 1,
+        backgroundImage: `url(/images/stories/${imageName})`,
+        backgroundSize: 'contain',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundColor: '#fff',
+        borderRadius: 2,
+        padding: 2,
+        display: 'flex',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        alignContent: 'flex-start',
+        gap: 2,
+        overflow: 'auto',
+    }),
+    rightColumn: {
+        flex: 1,
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 2,
+        overflow: 'auto',
+        maxHeight: '100vh',
+    },
+    wordCard: {
+        cursor: 'grab',
+        '&:active': {
+            cursor: 'grabbing',
+        },
+        backgroundColor: '#e3f2fd',
+        border: '2px solid #1976d2',
+        textAlign: 'center',
+        userSelect: 'none',
+        padding: 1,
+        flex: '0 1 calc(25% - 12px)',
+        minWidth: '100px',
+    },
+    sentenceCard: {
+        backgroundColor: '#f5f5f5',
+        display: 'flex',
+        alignItems: 'center',
+        padding: 2,
+    },
+    sentenceText: {
+        fontSize: '1.3rem',
+        lineHeight: 1.6,
+    },
+    translationText: {
+        fontSize: '1.1rem',
+        color: '#666',
+        marginTop: 1,
+    },
+    wordPlaceholder: {
+        display: 'inline',
+        padding: '4px 8px',
+        backgroundColor: '#fff59d',
+        borderRadius: '4px',
+        fontWeight: 'bold',
+        border: '2px dashed #f57f17',
+    },
+    insertedWord: {
+        display: 'inline',
+        padding: '4px 8px',
+        backgroundColor: '#c8e6c9',
+        borderRadius: '4px',
+        fontWeight: 'bold',
+        cursor: 'pointer',
+        border: '2px solid #388e3c',
+        '&:hover': {
+            backgroundColor: '#a5d6a7',
+        },
+    },
+    backButton: {
+        marginBottom: 2,
+    },
+};
+
+export default function Stories() {
+    const [selectedStory, setSelectedStory] = useState(null);
+    const [insertedWords, setInsertedWords] = useState({});
+    const [draggedWord, setDraggedWord] = useState(null);
+    const [dragOverIndex, setDragOverIndex] = useState(null);
+
+    if (selectedStory === null) {
+        return (
+            <Box sx={styles.selectionWrapper}>
+                <Typography variant="h4" gutterBottom>
+                    Select a Story
+                </Typography>
+                <Box sx={styles.selectionContainer}>
+                    {storiesData.map((story, index) => (
+                        <Card
+                            key={index}
+                            sx={styles.storyCard}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                e.stopPropagation();
+
+                                console.debug(`Selected story: ${story.name} (${index}).`);
+
+                                setSelectedStory(index);
+                                setInsertedWords({});
+                                setDraggedWord(null);
+                            }}
+                        >
+                            <CardContent sx={{ cursor: 'pointer' }}>
+                                <Typography variant="h6">{story.name}</Typography>
+                            </CardContent>
+                        </Card>
+                    ))}
+                </Box>
+            </Box>
+        );
+    }
+
+    const story = storiesData[selectedStory];
+    const availableWords = story.words.filter(
+        (word) => !Object.values(insertedWords).includes(word)
+    );
+
+    const renderSentenceContent = (sentenceIndex) => {
+        const sentence = story.sentences[sentenceIndex];
+        const english = sentence.english;
+        const insertedWord = insertedWords[sentenceIndex];
+
+        if (!english.includes('{{word}}')) {
+            return english;
+        }
+
+        return english.split('{{word}}').map((part, idx) => (
+            <span key={idx}>
+                {part}
+                {idx < english.split('{{word}}').length - 1 && (
+                    <>
+                        {insertedWord ? (
+                            <Box
+                                component="span"
+                                sx={styles.insertedWord}
+                                onClick={() => {
+                                    const newInserted = { ...insertedWords };
+                                    delete newInserted[sentenceIndex];
+                                    setInsertedWords(newInserted);
+                                }}
+                            >
+                                {insertedWord}
+                            </Box>
+                        ) : (
+                            <Box component="span" sx={styles.wordPlaceholder}>
+                                ...
+                            </Box>
+                        )}
+                    </>
+                )}
+            </span>
+        ));
+    };
+
+    return (
+        <Box sx={styles.container}>
+            <Box sx={styles.titleHeader}>
+                <IconButton aria-label="delete" size="large" onClick={() => setSelectedStory(null)}>
+                    <ReplyIcon fontSize="inherit" />
+                </IconButton>
+
+                <Typography variant="h4">
+                    {story.name}
+                </Typography>
+            </Box>
+
+            <Box sx={styles.contentContainer}>
+                {/* Left Column - Words */}
+                <Box sx={styles.leftColumn(story.image)}>
+                    {availableWords.map((word, index) => (
+                        <Card
+                            key={index}
+                            sx={styles.wordCard}
+                            draggable
+                            onDragStart={(e) => {
+                                setDraggedWord(word);
+                                e.dataTransfer.effectAllowed = 'move';
+                            }}
+                            onDragEnd={() => setDraggedWord(null)}
+                        >
+                            <CardContent sx={{ padding: '8px !important' }}>
+                                <Typography variant="body1">{word}</Typography>
+                            </CardContent>
+                        </Card>
+                    ))}
+                </Box>
+
+                {/* Right Column - Sentences */}
+                <Box sx={styles.rightColumn}>
+                    {story.sentences.map((sentence, index) => {
+                        const hasPlaceholder = sentence.english.includes('{{word}}');
+                        const style = {
+                            ...styles.sentenceCard,
+                            borderLeft: '2px solid brown',
+                            transition: 'border 0.2s ease',
+                        };
+
+                        if (dragOverIndex === index && hasPlaceholder) {
+                            style.border = '2px dashed #1976d2';
+                        }
+
+                        return (
+                            <Box
+                                key={index}
+                                sx={style}
+                                onDragOver={hasPlaceholder ? (e) => {
+                                    e.preventDefault();
+                                    e.dataTransfer.dropEffect = 'move';
+                                    setDragOverIndex(index);
+                                } : undefined}
+                                onDragLeave={hasPlaceholder ? () => {
+                                    setDragOverIndex(null);
+                                } : undefined}
+                                onDrop={hasPlaceholder ? (e) => {
+                                    e.preventDefault();
+                                    setDragOverIndex(null);
+                                    if (draggedWord) {
+                                        setInsertedWords({
+                                            ...insertedWords,
+                                            [index]: draggedWord,
+                                        });
+                                        setDraggedWord(null);
+                                    }
+                                } : undefined}
+                            >
+                                <Box>
+                                    <Typography sx={styles.sentenceText}>
+                                        {renderSentenceContent(index)}
+                                    </Typography>
+                                    {sentence.translation && (
+                                        <Typography sx={styles.translationText}>
+                                            {sentence.translation}
+                                        </Typography>
+                                    )}
+                                </Box>
+                            </Box>
+                        );
+                    })}
+                </Box>
+            </Box>
+        </Box>
+    );
+}
