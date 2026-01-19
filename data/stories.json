@@ -1,12 +1,12 @@
 [
     {
-        "name": "Bear's day",
+        "name": "Bear",
         "image": "bear.jpg",
+        "introduction": {
+            "english": "I watched a wild bear for a day and wrote notes. Then my notebook was chewed by bees!",
+            "translation": "Я целый день наблюдал за диким медведем и делал заметки. А потом мой блокнот погрызли пчелы!"
+        },
         "sentences": [
-            {
-                "english": "I watched a wild bear for a day and wrote notes. Then my notebook was chewed by bees!",
-                "translation": "Я целый день наблюдал за диким медведем и делал заметки. А потом мой блокнот погрызли пчелы!"
-            },
             {
                 "english": "I can hear Bear snoring.",
                 "translation": "Я слышу храп Медведя."
@@ -99,6 +99,121 @@
             "pulling",
             "tugging",
             "reeling"
+        ]
+    },
+    {
+        "name": "Astronaut",
+        "image": "astronaut.jpg",
+        "introduction": {
+            "english": "I remote controlled a robot to take notes about an astronaut on a space station, but the robot spilled oil on my notebook!",
+            "translation": "Я дистанционно управлял роботом, чтобы он делал заметки об астронавте на космической станции, но робот пролил масло на мой блокнот!"
+        },
+        "sentences": [
+            {
+                "english": "The astronaut {{word}} me through a video chat."
+            },
+            {
+                "english": "She {{word}} my questions."
+            },
+            {
+                "english": "The astronaut turned on a small robot for me to remote control.",
+                "translation": "Астронавт включил для меня небольшого робота, которым я мог управлять дистанционно."
+            },
+            {
+                "english": "\"Our first task is to check on some plants. Please bring me the garden shears.\"",
+                "translation": "«Наша первая задача — проверить растения. Пожалуйста, принесите мне садовые ножницы»."
+            },
+            {
+                "english": "The robot {{word}} the garden shears above its head."
+            },
+            {
+                "english": "The astronaut cut a plant then {{word}} a tomato."
+            },
+            {
+                "english": "\"It's good! Space tomato!\" said the astronaut.",
+                "translation": "«Вкусно! Космический помидор!» — сказал астронавт."
+            },
+            {
+                "english": "\"Now I need to use this manual to learn about this equipment.\"",
+                "translation": "«Теперь мне нужно воспользоваться этим руководством, чтобы изучить это оборудование»."
+            },
+            {
+                "english": "The astronaut {{word}} the book."
+            },
+            {
+                "english": "\"Ah, now I understand. The equipment is dirty.\"",
+                "translation": "«А, теперь я понимаю. Оборудование грязное»."
+            },
+            {
+                "english": "The astronaut {{word}} the equipment."
+            },
+            {
+                "english": "\"Now I can have some water.\"",
+                "translation": "«Теперь я могу выпить воды»."
+            },
+            {
+                "english": "The astronaut {{word}} some water."
+            },
+            {
+                "english": "The astronaut {{word}} something burning."
+            },
+            {
+                "english": "\"I smell something burning above us! Please use this ladder to investigate.\"",
+                "translation": "«Я чувствую запах гари над нами! Пожалуйста, воспользуйтесь этой лестницей, чтобы проверить»."
+            },
+            {
+                "english": "The robot {{word}} the ladder."
+            },
+            {
+                "english": "The robot {{word}} a button to fix the problem."
+            },
+            {
+                "english": "\"Thank you! Now we can go outside to fix the solar panels.\"",
+                "translation": "«Спасибо! Теперь мы можем выйти на улицу и починить солнечные панели»."
+            },
+            {
+                "english": "The astronaut {{word}} the airlock door then we went outside."
+            },
+            {
+                "english": "The robot {{word}} the astronaut fix the solar panels."
+            },
+            {
+                "english": "I dropped a tool and it was floating away, but the astronaut {{word}} it."
+            },
+            {
+                "english": "We went back inside. The astronaut {{word}} me for helping her."
+            },
+            {
+                "english": "I {{word}} a lot about fixing a space station!"
+            },
+            {
+                "english": "We {{word}} then I logged off."
+            },
+            {
+                "english": "It was interesting to see what astronauts do every day in the space station.",
+                "translation": "Было интересно посмотреть, чем занимаются астронавты каждый день на космической станции."
+            }
+        ],
+        "words": [
+            "called",
+            "answered",
+            "lifted",
+            "held",
+            "ate",
+            "read",
+            "checked",
+            "cleaned",
+            "drank",
+            "smelled",
+            "climbed",
+            "pushed",
+            "opened",
+            "helped",
+            "learned",
+            "caught",
+            "thanked",
+            "danced",
+            "high-fived"
         ]
     }
 ]

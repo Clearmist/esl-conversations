@@ -66,7 +66,7 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         flexWrap: 'wrap',
-        alignContent: 'flex-start',
+        alignContent: 'center',
         gap: 2,
         overflow: 'auto',
     }),
@@ -78,12 +78,23 @@ const styles = {
         overflow: 'auto',
         maxHeight: '100vh',
     },
+    notebookPage: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 1,
+        border: '1px solid brown',
+        borderRadius: 2,
+        '& p': {
+            fontFamily: '"Times New Roman", Times, serif',
+        },
+        mb: 1,
+    },
     wordCard: {
         cursor: 'grab',
         '&:active': {
             cursor: 'grabbing',
         },
-        backgroundColor: '#e3f2fd',
+        backgroundColor: 'rgb(227 242 253 / 96%)',
         border: '2px solid #1976d2',
         textAlign: 'center',
         userSelect: 'none',
@@ -92,7 +103,6 @@ const styles = {
         minWidth: '100px',
     },
     sentenceCard: {
-        backgroundColor: '#f5f5f5',
         display: 'flex',
         alignItems: 'center',
         padding: 2,
@@ -148,7 +158,7 @@ export default function Stories() {
                         Repair a clumsy naturalist's notebook.
                     </Typography>
                     <Typography variant="body1" gutterBottom>
-                        Починить неуклюжий блокнот натуралиста.
+                        Починить блокнот неуклюжего натуралиста.
                     </Typography>
                     <Box sx={styles.selectionContainer}>
                         {storiesData.map((story, index) => (
@@ -254,55 +264,62 @@ export default function Stories() {
 
                 {/* Right Column - Sentences */}
                 <Box sx={styles.rightColumn}>
-                    {story.sentences.map((sentence, index) => {
-                        const hasPlaceholder = sentence.english.includes('{{word}}');
-                        const style = {
-                            ...styles.sentenceCard,
-                            borderLeft: '2px solid brown',
-                            transition: 'border 0.2s ease',
-                        };
+                    <Paper sx={{ p: 2 }}>
+                        <Typography sx={styles.sentenceText}>{story.introduction.english}</Typography>
+                        <Typography sx={styles.translationText}>{story.introduction.translation}</Typography>
+                    </Paper>
+                    <Paper sx={styles.notebookPage}>
+                        {story.sentences.map((sentence, index) => {
+                            const hasPlaceholder = sentence.english.includes('{{word}}');
+                            const style = { ...styles.sentenceCard };
 
-                        if (dragOverIndex === index && hasPlaceholder) {
-                            style.border = '2px dashed #1976d2';
-                        }
+                            if (dragOverIndex === index && hasPlaceholder) {
+                                style.border = '1px dashed #1976d2';
+                            } else {
+                                style.borderBottom = '1px solid brown';
+                                style.borderTop = '1px solid transparent';
+                                style.borderLeft = '1px solid transparent';
+                                style.borderRight = '1px solid transparent';
+                            }
 
-                        return (
-                            <Box
-                                key={index}
-                                sx={style}
-                                onDragOver={hasPlaceholder ? (e) => {
-                                    e.preventDefault();
-                                    e.dataTransfer.dropEffect = 'move';
-                                    setDragOverIndex(index);
-                                } : undefined}
-                                onDragLeave={hasPlaceholder ? () => {
-                                    setDragOverIndex(null);
-                                } : undefined}
-                                onDrop={hasPlaceholder ? (e) => {
-                                    e.preventDefault();
-                                    setDragOverIndex(null);
-                                    if (draggedWord) {
-                                        setInsertedWords({
-                                            ...insertedWords,
-                                            [index]: draggedWord,
-                                        });
-                                        setDraggedWord(null);
-                                    }
-                                } : undefined}
-                            >
-                                <Box>
-                                    <Typography sx={styles.sentenceText}>
-                                        {renderSentenceContent(index)}
-                                    </Typography>
-                                    {sentence.translation && (
-                                        <Typography sx={styles.translationText}>
-                                            {sentence.translation}
+                            return (
+                                <Box
+                                    key={index}
+                                    sx={style}
+                                    onDragOver={hasPlaceholder ? (e) => {
+                                        e.preventDefault();
+                                        e.dataTransfer.dropEffect = 'move';
+                                        setDragOverIndex(index);
+                                    } : undefined}
+                                    onDragLeave={hasPlaceholder ? () => {
+                                        setDragOverIndex(null);
+                                    } : undefined}
+                                    onDrop={hasPlaceholder ? (e) => {
+                                        e.preventDefault();
+                                        setDragOverIndex(null);
+                                        if (draggedWord) {
+                                            setInsertedWords({
+                                                ...insertedWords,
+                                                [index]: draggedWord,
+                                            });
+                                            setDraggedWord(null);
+                                        }
+                                    } : undefined}
+                                >
+                                    <Box>
+                                        <Typography sx={styles.sentenceText}>
+                                            {renderSentenceContent(index)}
                                         </Typography>
-                                    )}
+                                        {sentence.translation && (
+                                            <Typography sx={styles.translationText}>
+                                                {sentence.translation}
+                                            </Typography>
+                                        )}
+                                    </Box>
                                 </Box>
-                            </Box>
-                        );
-                    })}
+                            );
+                        })}
+                    </Paper>
                 </Box>
             </Box>
         </Box>
