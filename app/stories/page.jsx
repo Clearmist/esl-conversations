@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -9,6 +9,15 @@ import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import ReplyIcon from '@mui/icons-material/Reply';
 import storiesData from '../../data/stories.json';
+
+const shuffleArray = (array) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+};
 
 const styles = {
     container: {
@@ -146,6 +155,17 @@ export default function Stories() {
     const [insertedWords, setInsertedWords] = useState({});
     const [draggedWord, setDraggedWord] = useState(null);
     const [dragOverIndex, setDragOverIndex] = useState(null);
+    const [shuffledAvailableWords, setShuffledAvailableWords] = useState([]);
+
+    useEffect(() => {
+        if (selectedStory !== null) {
+            const story = storiesData[selectedStory];
+            const available = story.words.filter(
+                (word) => !Object.values(insertedWords).includes(word)
+            );
+            setShuffledAvailableWords(shuffleArray(available));
+        }
+    }, [selectedStory]);
 
     if (selectedStory === null) {
         return (
@@ -188,9 +208,6 @@ export default function Stories() {
     }
 
     const story = storiesData[selectedStory];
-    const availableWords = story.words.filter(
-        (word) => !Object.values(insertedWords).includes(word)
-    );
 
     const renderSentenceContent = (sentenceIndex) => {
         const sentence = story.sentences[sentenceIndex];
@@ -212,8 +229,10 @@ export default function Stories() {
                                 sx={styles.insertedWord}
                                 onClick={() => {
                                     const newInserted = { ...insertedWords };
+                                    const removedWord = newInserted[sentenceIndex];
                                     delete newInserted[sentenceIndex];
                                     setInsertedWords(newInserted);
+                                    setShuffledAvailableWords([...shuffledAvailableWords, removedWord]);
                                 }}
                             >
                                 {insertedWord}
@@ -244,7 +263,7 @@ export default function Stories() {
             <Box sx={styles.contentContainer}>
                 {/* Left Column - Words */}
                 <Box sx={styles.leftColumn(story.image)}>
-                    {availableWords.map((word, index) => (
+                    {shuffledAvailableWords.map((word, index) => (
                         <Card
                             key={index}
                             sx={styles.wordCard}
@@ -302,6 +321,9 @@ export default function Stories() {
                                                 ...insertedWords,
                                                 [index]: draggedWord,
                                             });
+                                            setShuffledAvailableWords(
+                                                shuffledAvailableWords.filter((word) => word !== draggedWord)
+                                            );
                                             setDraggedWord(null);
                                         }
                                     } : undefined}
