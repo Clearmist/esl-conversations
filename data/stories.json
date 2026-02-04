@@ -215,5 +215,85 @@
             "danced",
             "high-fived"
         ]
+    },
+    {
+        "name": "Teacher",
+        "image": "teacher.jpg",
+        "introduction": {
+            "english": "I visited a teacher during recess. My notebook got crayon drawn all over it!",
+            "translation": "Во время перемены я зашёл к учительнице. Моя тетрадь вся испачкана рисунками, сделанными цветными карандашами!"
+        },
+        "sentences": [
+            {
+                "english": "Today is crazy day on the playground. We allow it once per year. I need your help!",
+                "translation": "Сегодня на детской площадке настоящий хаос. Мы разрешаем это только раз в году. Мне нужна ваша помощь!"
+            },
+            {
+                "english": "Gina was running {{word}} the teacher while singing very loudly!"
+            },
+            {
+                "english": "Tom was stuck {{word}} the slide. I had to pull him out."
+            },
+            {
+                "english": "Ceecee was stuck {{word}} a pile of other children!"
+            },
+            {
+                "english": "Brad was looking for acorns and stuffing them {{word}} his mouth."
+            },
+            {
+                "english": "Jen was eating yogurt with a stick!",
+                "translation": "Джен ела йогурт с палочкой!"
+            },
+            {
+                "english": "Earl was {{word}} the slide and pouring water down it."
+            },
+            {
+                "english": "I saw someone above us. How did he get up there?",
+                "translation": "Я видел кого-то над нами. Как он туда забрался?"
+            },
+            {
+                "english": "Chris was {{word}} of the school building!"
+            },
+            {
+                "english": "Emily was waving to me from across the street!",
+                "translation": "Эмили махала мне рукой с другой стороны улицы!"
+            },
+            {
+                "english": "How did she get so {{word}} away?"
+            },
+            {
+                "english": "I heard a guitar and saw Gina playing a guitar! How did she get a guitar?!",
+                "translation": "Я услышала звук гитары и увидела, как Джина играет на гитаре! Откуда у неё вообще взялась гитара?!"
+            },
+            {
+                "english": "Gina was still running {{word}} the teacher."
+            },
+            {
+                "english": "Willy ran up {{word}} me to show me his face."
+            },
+            {
+                "english": "Willy had used mud for makeup!",
+                "translation": "Вилли использовал грязь для макияжа!"
+            },
+            {
+                "english": "A child ran by holding his pants {{word}} his head."
+            },
+            {
+                "english": "Finally the teacher yelled for everyone to return to the classroom. I collapsed on the ground to rest.",
+                "translation": "Наконец учитель крикнул всем, чтобы они вернулись в класс. Я рухнул на пол, чтобы отдохнуть."
+            }
+        ],
+        "words": [
+            "around",
+            "under",
+            "under",
+            "inside",
+            "next to",
+            "on top",
+            "far",
+            "around",
+            "beside",
+            "above"
+        ]
     }
 ]
