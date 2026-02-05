@@ -321,9 +321,12 @@ export default function Stories() {
                                                 ...insertedWords,
                                                 [index]: draggedWord,
                                             });
-                                            setShuffledAvailableWords(
-                                                shuffledAvailableWords.filter((word) => word !== draggedWord)
-                                            );
+                                            const newAvailable = [...shuffledAvailableWords];
+                                            const removeIndex = newAvailable.indexOf(draggedWord);
+                                            if (removeIndex !== -1) {
+                                                newAvailable.splice(removeIndex, 1);
+                                            }
+                                            setShuffledAvailableWords(newAvailable);
                                             setDraggedWord(null);
                                         }
                                     } : undefined}
