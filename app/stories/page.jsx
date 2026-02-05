@@ -317,15 +317,24 @@ export default function Stories() {
                                         e.preventDefault();
                                         setDragOverIndex(null);
                                         if (draggedWord) {
-                                            setInsertedWords({
-                                                ...insertedWords,
-                                                [index]: draggedWord,
-                                            });
-                                            const newAvailable = [...shuffledAvailableWords];
+                                            const oldWord = insertedWords[index];
+                                            let newAvailable = [...shuffledAvailableWords];
+
+                                            // Add old word back to available list if it exists
+                                            if (oldWord) {
+                                                newAvailable.push(oldWord);
+                                            }
+
+                                            // Remove the dragged word from available list
                                             const removeIndex = newAvailable.indexOf(draggedWord);
                                             if (removeIndex !== -1) {
                                                 newAvailable.splice(removeIndex, 1);
                                             }
+
+                                            setInsertedWords({
+                                                ...insertedWords,
+                                                [index]: draggedWord,
+                                            });
                                             setShuffledAvailableWords(newAvailable);
                                             setDraggedWord(null);
                                         }
