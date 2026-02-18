@@ -295,5 +295,80 @@
             "beside",
             "above"
         ]
+    },
+    {
+        "name": "Friends",
+        "image": "friends.jpg",
+        "introduction": {
+            "english": "I spent time with my friends today, but got donut crumbs on my journal!",
+            "translation": "Сегодня я провела время с друзьями, но на мой дневник попали крошки от пончика!"
+        },
+        "sentences": [
+            {
+                "english": "Me and my friends were playing in the park. We saw Jim walking and wearing headphones.",
+                "translation": "Мы с друзьями играли в парке. Мы увидели Джима, который шел и был в наушниках."
+            },
+            {
+                "english": "Jim is blind. With headphones he wouldn't hear danger! We decided to help Jim.",
+                "translation": "Джим слепой. В наушниках он не услышит опасности! Мы решили помочь Джиму."
+            },
+            {
+                "english": "\"Everyone knows who I am. Jim will stop for me.\" said {{word}} Larry. But Jim did not stop!",
+                "translation": "«Все знают, кто я. Джим остановится, чтобы меня подвезти», — сказал ___ Ларри. Но Джим не остановился!"
+            },
+            {
+                "english": "\"People like my face. Jim will stop for me!\" said {{word}} Irina. But Jim did not stop!",
+                "translation": "«Людям нравится моё лицо. Джим остановится ради меня!» — сказала ___ Ирина. Но Джим не остановился!"
+            },
+            {
+                "english": "\"I'm very noticeable from playing in the mud,\" said {{word}} David, but Jim didn't notice!",
+                "translation": "«Меня очень хорошо видно из-за того, что я играл в грязи», — сказал ___ Дэвид, но Джим этого не заметил!"
+            },
+            {
+                "english": "\"I don't like this! I will yell at Jim,\" said {{word}} Andy. But Jim didn't notice!",
+                "translation": "«Мне это не нравится! Я накричу на Джима!» — сказал ___ Энди. Но Джим этого не заметил!"
+            },
+            {
+                "english": "\"I am quite large. I will stop Jim from walking,\" said {{word}} Al. But Jim walked around!",
+                "translation": "Я довольно крупный. Я остановлю Джима, когда он будет ходить», — сказал ___ Эл. Но Джим ходил вокруг!"
+            },
+            {
+                "english": "\"I can reach up very high! I will stop Jim from walking,\" said {{word}} Anna. But Jim walked around!",
+                "translation": "«Я могу дотянуться очень высоко! Я остановлю Джима, когда он будет ходить!» — сказал ___ Тим. Но Джим ходил вокруг!"
+            },
+            {
+                "english": "\"I'll ask Jim to eat lunch with me,\" said {{word}} Harry. But Jim kept walking.",
+                "translation": "«Я попрошу Джима пообедать со мной», — сказал ___ Гарри. Но Джим продолжал идти."
+            },
+            {
+                "english": "We all looked at {{word}} Crabble, but she yawned and declined to help.",
+                "translation": "Мы все посмотрели на ___ Крэббл, но она зевнула и отказалась помочь."
+            },
+            {
+                "english": "\"Hmm, I think I have an idea,\" said {{word}} Carl. Carl lifted Jim's headphones off his head!",
+                "translation": "«Хм, кажется, у меня есть идея», — сказал ___ Карл. Карл снял наушники с головы Джима!"
+            },
+            {
+                "english": "We told Blind Jim that it is dangerous to walk with headphones when you cannot see. Jim said, \"I am {{word}} for having such caring friends!\"",
+                "translation": "Мы сказали слепому Джиму, что опасно ходить в наушниках, когда ничего не видишь. Джим ответил: «Я ___ за то, что у меня есть такие заботливые друзья!»"
+            }
+        ],
+        "words": [
+            "famous",
+            "cute",
+            "dirty",
+            "angry",
+            "lazy",
+            "fat",
+            "tall",
+            "hungry",
+            "delicious",
+            "short",
+            "strong",
+            "clever",
+            "thankful",
+            "busy",
+            "shiny"
+        ]
     }
 ]
