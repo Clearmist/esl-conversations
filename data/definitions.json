@@ -415,5 +415,25 @@
             "test",
             "word"
         ]
+    },
+    {
+        "name": "Story: Friends",
+        "entries": [
+            "famous",
+            "cute",
+            "dirty",
+            "angry",
+            "lazy",
+            "fat",
+            "tall",
+            "hungry",
+            "delicious",
+            "short",
+            "strong",
+            "clever",
+            "thankful",
+            "busy",
+            "shiny"
+        ]
     }
 ]
