@@ -13,30 +13,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.svg" sizes="any" />
-        <link rel="preload" as="image" href="/images/definitions/amy.png" />
-        <link rel="preload" as="image" href="/images/definitions/choice-knuckles.webp" />
-        <link rel="preload" as="image" href="/images/definitions/choice-sonic.webp" />
-        <link rel="preload" as="image" href="/images/definitions/choice-tails.webp" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-knuckles-finish.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-knuckles-idle.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-knuckles-run.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-knuckles-walk.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-knuckles-dash.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-sonic-finish.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-sonic-idle.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-sonic-run.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-sonic-walk.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-sonic-dash.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-tails-finish.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-tails-idle.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-tails-run.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-tails-walk.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-tails-dash.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-robotnik-finish.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-robotnik-idle.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-robotnik-run.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-robotnik-walk.png" />
-        <link rel="preload" as="image" href="/images/definitions/sprite-sheet-robotnik-dash.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
       </head>
       <body>
         <AppStateProvider>{children}</AppStateProvider>

@@ -94,7 +94,7 @@ const styles = {
         border: '1px solid brown',
         borderRadius: 2,
         '& p': {
-            fontFamily: '"Times New Roman", Times, serif',
+            fontFamily: '"Atkinson Hyperlegible Next"',
         },
         mb: 1,
     },
