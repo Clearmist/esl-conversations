@@ -370,5 +370,71 @@
             "busy",
             "shiny"
         ]
+    },
+    {
+        "name": "Up the stairs",
+        "image": "up-the-stairs.jpg",
+        "introduction": {
+            "english": "I damaged my notebook falling down some stairs.",
+            "translation": "Я повредил свой ноутбук, упав с лестницы."
+        },
+        "sentences": [
+            {
+                "english": "I walked up the {{word}} to my apartment and Old Jim jumped out to scare me.",
+                "translation": "Я шел по _____ к своей квартире, и тут выскочил старый Джим, чтобы меня напугать."
+            },
+            {
+                "english": "I said, \"That was fun, I will find someone else to scare.\"",
+                "translation": "Я сказал: «Было весело, я найду кого-нибудь другого, кого можно напугать»."
+            },
+            {
+                "english": "I found Famous Larry {{word}} and asked him to visit my apartment.",
+                "translation": "Я нашел знаменитого Ларри _____ и попросил его прийти ко мне в квартиру."
+            },
+            {
+                "english": "We {{word}} went up the stairs and Blind Jim jumped out to scare Larry!",
+                "translation": "Мы _____ поднялись по лестнице, и Слепой Джим выскочил, чтобы напугать Ларри!"
+            },
+            {
+                "english": "Larry and I found Tall Anna {{word}} ice cream and asked her to visit my apartment.",
+                "translation": "Мы с Ларри застали высокую Анну за _____ мороженого и пригласили ее к себе в квартиру."
+            },
+            {
+                "english": "The {{word}} of us climbed the stairs and Blind Jim scared Anna!",
+                "translation": "Нас было _____ человек, и мы поднялись по лестнице, а Слепой Джим напугал Анну!"
+            },
+            {
+                "english": "We all found Fat Al in the park. I said, \"Come {{word}} my apartment.\"",
+                "translation": "Мы все нашли Толстого Эла в парке. Я сказал: «Приходи ко мне в квартиру»."
+            },
+            {
+                "english": "Me, Larry, Anna, and Al all went up the stairs {{word}}.",
+                "translation": "Мы с Ларри, Анной и Элом поднялись по лестнице _____."
+            },
+            {
+                "english": "Blind Jim jumped out to {{word}} Fat Al.",
+                "translation": "Слепой Джим выскочил к _____ Толстяку Элу."
+            },
+            {
+                "english": "Fat Al was so scared that he ran {{word}} the stairs straight into us!",
+                "translation": "Толстяк Эл так испугался, что сбежал ____ по лестнице прямо на нас!"
+            },
+            {
+                "english": "We all rolled down the stairs in a big ball of arms and legs then {{word}} so much.",
+                "translation": "Мы все скатились по лестнице в большой комок рук и ног, а потом ____ так сильно."
+            }
+        ],
+        "words": [
+            "stairs",
+            "outside",
+            "both",
+            "buying",
+            "three",
+            "visit",
+            "together",
+            "scare",
+            "down",
+            "laughed"
+        ]
     }
 ]
