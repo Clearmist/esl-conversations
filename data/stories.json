@@ -380,8 +380,8 @@
         },
         "sentences": [
             {
-                "english": "I walked up the {{word}} to my apartment and Old Jim jumped out to scare me.",
-                "translation": "Я шел по _____ к своей квартире, и тут выскочил старый Джим, чтобы меня напугать."
+                "english": "I walked up the {{word}} to my apartment and Blind Jim jumped out to scare me.",
+                "translation": "Я шел по _____ к своей квартире, и Слепой Джим выскочил, чтобы меня напугать."
             },
             {
                 "english": "I said, \"That was fun, I will find someone else to scare.\"",
