@@ -373,7 +373,7 @@
     },
     {
         "name": "Up the stairs",
-        "image": "up-the-stairs.jpg",
+        "image": "friends-up-the-stairs.jpg",
         "introduction": {
             "english": "I damaged my notebook falling down some stairs.",
             "translation": "Я повредил свой ноутбук, упав с лестницы."
@@ -435,6 +435,71 @@
             "scare",
             "down",
             "laughed"
+        ]
+    },
+    {
+        "name": "Going there vote",
+        "image": "friends-going-there-vote.jpg",
+        "introduction": {
+            "english": "My friends and I will walk to the beach. We decided to vote on the funnest way to get to the beach.",
+            "translation": "Мы с друзьями пойдем на пляж пешком. Мы решили проголосовать за самый веселый способ добраться до пляжа."
+        },
+        "sentences": [
+            {
+                "english": "Me, Dirty David, Famous Larry, and Lazy Carey {{word}} to visit the beach after school.",
+                "translation": "Мы с Грязным Дэвидом, Знаменитым Ларри и Ленивым Кэри _____ после школы сходить на пляж."
+            },
+            {
+                "english": "Dirty David said, \"We should {{word}} on the funnest way to get to the beach.\"",
+                "translation": "Грязный Дэвид сказал: «Нам следует _____ за самый весёлый способ добраться до пляжа»."
+            },
+            {
+                "english": "\"How about this?\" asked David. He jumped on every {{word}} in the sidewalk.",
+                "translation": "«А как насчет этого?» — спросил Дэвид. Он прыгал по каждой ____ на тротуаре."
+            },
+            {
+                "english": "We all clapped, but Famous Larry said, \"{{word}} on every crack will make me so tired!\"",
+                "translation": "Мы все захлопали, но Знаменитый Ларри сказал: «От _____ по каждой трещине я так устану!»"
+            },
+            {
+                "english": "\"How about this?\" asked Larry. He walked on the sidewalk while {{word}} around and around.",
+                "translation": "«А как насчет этого?» — спросил Ларри. Он шел по тротуару, _____ вокруг своей оси."
+            },
+            {
+                "english": "We all clapped, but Lazy Carey said, \"I will get too {{word}}!\"",
+                "translation": "Мы все захлопали, но Ленивый Кэри сказал: «У меня _____ голова!»"
+            },
+            {
+                "english": "\"How about this?\" asked Carey. She {{word}} on the sidewalk and smiled.",
+                "translation": "«Как вам это?» — спросила Кэри. Она _____ на тротуар и улыбнулась."
+            },
+            {
+                "english": "We all clapped, but I said, \"If we sit on the {{word}} we will never get to the beach!\"",
+                "translation": "Мы все захлопали, но я сказала: «Если мы будем сидеть на _____, то никогда не доберемся до пляжа!»"
+            },
+            {
+                "english": "\"How about this?\" I asked. I walked my most funky coolest fun walk. I {{word}} walked.",
+                "translation": "«А как насчет этого?» — спросила я. Я прошлась самым необычным, крутым и веселым маршрутом. Я шла как _____."
+            },
+            {
+                "english": "We all {{word}} then walked to the beach with crazy walks.",
+                "translation": "Мы все _____, а затем, неистово шагая, направились к пляжу."
+            }
+        ],
+        "words": [
+            "decided",
+            "vote",
+            "crack",
+            "laughed",
+            "together",
+            "jumping",
+            "turning",
+            "spinning",
+            "dizzy",
+            "sat",
+            "sidewalk",
+            "clapped",
+            "crazy"
         ]
     }
 ]
