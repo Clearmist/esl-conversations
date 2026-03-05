@@ -12,20 +12,24 @@
                 "translation": "Я слышу храп Медведя."
             },
             {
-                "english": "Bear is {{word}} in its bed."
+                "english": "Bear is {{word}} in its bed.",
+                "translation": "Медведь {{спит}} в своей кровати."
             },
             {
                 "english": "Bear wakes up and goes to the kitchen.",
                 "translation": "Медведь просыпается и идет на кухню."
             },
             {
-                "english": "Bear is {{word}} salmon on the stovetop."
+                "english": "Bear is {{word}} salmon on the stovetop.",
+                "translation": "Медведь {{готовит}} лосося на плите."
             },
             {
-                "english": "Bear is {{word}} breakfast at the table."
+                "english": "Bear is {{word}} breakfast at the table.",
+                "translation": "Медведь {{ест}} завтрак за столом."
             },
             {
-                "english": "After breakfast Bear is {{word}} the plate and fork."
+                "english": "After breakfast Bear is {{word}} the plate and fork.",
+                "translation": "После завтрака Медведь {{моет}} тарелку и вилку."
             },
             {
                 "english": "Bear sits at a desk and opens his school books.",
@@ -39,41 +43,48 @@
                 "translation": "Медведь закрывает книги и начинает разговаривать со своей плюшевой игрушкой."
             },
             {
-                "english": "Bear is {{word}} English."
+                "english": "Bear is {{word}} English.",
+                "translation": "Медведь {{практикует}} английский."
             },
             {
                 "english": "Bear puts on waterproof boots and gets his fishing rod.",
                 "translation": "Медведь надевает водонепроницаемые ботинки и достает удочку."
             },
             {
-                "english": "Bear is {{word}} to the river."
+                "english": "Bear is {{word}} to the river.",
+                "translation": "Медведь {{идет}} к реке."
             },
             {
                 "english": "At the river Bear decides to get into the water.",
                 "translation": "У реки Медведь решает зайти в воду."
             },
             {
-                "english": "Bear is {{word}} in the river!"
+                "english": "Bear is {{word}} in the river!",
+                "translation": "Медведь {{плавает}} в реке!"
             },
             {
                 "english": "Bear gets out of the water then walks to a chair by the riverbank and takes his fishing rod.",
                 "translation": "Медведь выходит из воды, подходит к стулу на берегу реки и берет свою удочку."
             },
             {
-                "english": "Bear is {{word}} in a chair by the river."
+                "english": "Bear is {{word}} in a chair by the river.",
+                "translation": "Медведь {{сидит}} на стуле у реки."
             },
             {
-                "english": "Bear is {{word}} his fishing rod."
+                "english": "Bear is {{word}} his fishing rod.",
+                "translation": "Медведь {{держит}} свою удочку."
             },
             {
-                "english": "Bear is {{word}} his fishing line into the river."
+                "english": "Bear is {{word}} his fishing line into the river.",
+                "translation": "Медведь {{забрасывает}} свою удочку в реку."
             },
             {
                 "english": "Bear feels a tug on his fishing line!",
                 "translation": "Медведь почувствовал, как дернулась леска!"
             },
             {
-                "english": "Bear is {{word}} in a fish."
+                "english": "Bear is {{word}} in a fish.",
+                "translation": "Медведь {{вытаскивает}} рыбу."
             },
             {
                 "english": "Bear has caught a fish! It is a big salmon. Bear is so happy.",
@@ -299,10 +310,6 @@
     {
         "name": "Friends",
         "image": "friends.jpg",
-        "introduction": {
-            "english": "I spent time with my friends today, but got donut crumbs on my journal!",
-            "translation": "Сегодня я провела время с друзьями, но на мой дневник попали крошки от пончика!"
-        },
         "sentences": [
             {
                 "english": "Me and my friends were playing in the park. We saw Jim walking and wearing headphones.",
@@ -440,50 +447,46 @@
     {
         "name": "Going there vote",
         "image": "friends-going-there-vote.jpg",
-        "introduction": {
-            "english": "My friends and I will walk to the beach. We decided to vote on the funnest way to get to the beach.",
-            "translation": "Мы с друзьями пойдем на пляж пешком. Мы решили проголосовать за самый веселый способ добраться до пляжа."
-        },
         "sentences": [
             {
                 "english": "Me, Dirty David, Famous Larry, and Lazy Carey {{word}} to visit the beach after school.",
-                "translation": "Мы с Грязным Дэвидом, Знаменитым Ларри и Ленивым Кэри _____ после школы сходить на пляж."
+                "translation": "Мы с Грязным Дэвидом, Знаменитым Ларри и Ленивым Кэри {{решили}} после школы сходить на пляж."
             },
             {
                 "english": "Dirty David said, \"We should {{word}} on the funnest way to get to the beach.\"",
-                "translation": "Грязный Дэвид сказал: «Нам следует _____ за самый весёлый способ добраться до пляжа»."
+                "translation": "Грязный Дэвид сказал: «Нам следует {{проголосовать}} за самый интересный способ добраться до пляжа.»."
             },
             {
                 "english": "\"How about this?\" asked David. He jumped on every {{word}} in the sidewalk.",
-                "translation": "«А как насчет этого?» — спросил Дэвид. Он прыгал по каждой ____ на тротуаре."
+                "translation": "«А как насчет этого?» — спросил Дэвид. Он прыгал по каждой {{трещине}} на тротуаре."
             },
             {
                 "english": "We all clapped, but Famous Larry said, \"{{word}} on every crack will make me so tired!\"",
-                "translation": "Мы все захлопали, но Знаменитый Ларри сказал: «От _____ по каждой трещине я так устану!»"
+                "translation": "Мы все захлопали, но Знаменитый Ларри сказал: «{{Прыгая}} по каждой трещинке, я ужасно устану!»"
             },
             {
                 "english": "\"How about this?\" asked Larry. He walked on the sidewalk while {{word}} around and around.",
-                "translation": "«А как насчет этого?» — спросил Ларри. Он шел по тротуару, _____ вокруг своей оси."
+                "translation": "«А как насчет этого?» — спросил Ларри. Он шел по тротуару, кружась {{вокруг}} своей оси."
             },
             {
                 "english": "We all clapped, but Lazy Carey said, \"I will get too {{word}}!\"",
-                "translation": "Мы все захлопали, но Ленивый Кэри сказал: «У меня _____ голова!»"
+                "translation": "Мы все захлопали, но Ленивый Кэри сказал: «У меня {{закружится}} голова!»"
             },
             {
                 "english": "\"How about this?\" asked Carey. She {{word}} on the sidewalk and smiled.",
-                "translation": "«Как вам это?» — спросила Кэри. Она _____ на тротуар и улыбнулась."
+                "translation": "«Как вам это?» — спросила Кэри. Она {{села}} на тротуар и улыбнулась."
             },
             {
                 "english": "We all clapped, but I said, \"If we sit on the {{word}} we will never get to the beach!\"",
-                "translation": "Мы все захлопали, но я сказала: «Если мы будем сидеть на _____, то никогда не доберемся до пляжа!»"
+                "translation": "Мы все захлопали, но я сказала: «Если мы будем сидеть на {{тротуаре}}, то никогда не доберемся до пляжа!»"
             },
             {
                 "english": "\"How about this?\" I asked. I walked my most funky coolest fun walk. I {{word}} walked.",
-                "translation": "«А как насчет этого?» — спросила я. Я прошлась самым необычным, крутым и веселым маршрутом. Я шла как _____."
+                "translation": "«А как насчет этого?» — спросила я. Я прошлась самым необычным, крутым и веселым маршрутом. Я шла как {{сумасшедшая}}."
             },
             {
                 "english": "We all {{word}} then walked to the beach with crazy walks.",
-                "translation": "Мы все _____, а затем, неистово шагая, направились к пляжу."
+                "translation": "Мы все {{похлопали}}, а затем, неистово шагая, направились к пляжу."
             }
         ],
         "words": [
@@ -500,6 +503,100 @@
             "sidewalk",
             "clapped",
             "crazy"
+        ]
+    },
+    {
+        "name": "The metal box",
+        "image": "friends-metal-box.jpg",
+        "sentences": [
+            {
+                "english": "Lazy Carey came to {{word}} Fat Al, Cool Jan, and Cute Miroslaw. She was holding a small metal box.",
+                "translation": "Ленивая Кэри {{пришла}} навестить Толстяка Эла, Крутого Яна и Милого Мирослава. Она держала в руках маленькую металлическую коробочку."
+            },
+            {
+                "english": "Everybody was interested in the box. Cute Miroslaw said, \"This metal box is {{word}}.\"",
+                "translation": "Все заинтересовались коробкой. Милый Мирослав сказал: «Этот металлический ящик {{водонепроницаема}}»."
+            },
+            {
+                "english": "Cool Jan added, \"We could bury it like {{word}}!\"",
+                "translation": "Крутой Ян сказал: «Мы могли бы закопать это как {{сокровище}}!»"
+            },
+            {
+                "english": "We agreed to each give Lazy Carey a secret item. Carey would then {{word}} the box and we'd dig it up later.",
+                "translation": "Мы договорились, что каждый из нас передаст Ленивому Кэри какой-нибудь секретный предмет. Кэри {{закопает}} коробку, а мы потом её выкопаем."
+            },
+            {
+                "english": "After Carey buried the box she came back to us with so much {{word}} on her face.",
+                "translation": "После того как Кэри закопала коробку, она вернулась к нам с кучей {{шоколада}} на лице."
+            },
+            {
+                "english": "\"Did we each give chocolate to Carey?\" asked Fat Al.",
+                "translation": "«Мы все подарили Кэри шоколад?» — спросил Толстый Эл."
+            },
+            {
+                "english": "We laughed and {{word}} to try again, but this time it wouldn't be a secret.",
+                "translation": "Мы посмеялись и {{решили}} попробовать еще раз, но на этот раз это не будет секретом."
+            },
+            {
+                "english": "We put a hat, LEGO car, comic book, and {{word}} Pikachu into the box.",
+                "translation": "Мы положили в коробку шляпу, машинку из LEGO, комикс и {{запихнули}} туда Пикачу."
+            },
+            {
+                "english": "We all walked to the beach and buried it deep in the {{word}}.",
+                "translation": "Мы все вместе пошли на пляж и закопали его глубоко в {{песок}}."
+            },
+            {
+                "english": "The next day all of us {{word}} to the beach to play.",
+                "translation": "На следующий день мы все вместе {{пошли}} играть на пляж."
+            },
+            {
+                "english": "There were many people on the beach making big sandcastles! It was a sand castle {{word}}!",
+                "translation": "На пляже было много людей, которые строили большие песчаные замки! Это был {{конкурс}} песчаных замков!"
+            },
+            {
+                "english": "\"Someone will {{word}} our box!\" said Lazy Carey.",
+                "translation": "«Кто-нибудь обязательно {{найдет}} нашу коробку!» — сказала Ленивая Кэри."
+            },
+            {
+                "english": "\"I think those kids already {{word}} it,\" said Fat Al.",
+                "translation": "«Думаю, эти дети уже это {{нашли}}», — сказал Фэт Эл."
+            },
+            {
+                "english": "We saw a small group of {{word}} cheering kids.",
+                "translation": "Мы увидели небольшую группу {{восторженно}} ликующих детей."
+            },
+            {
+                "english": "Cute Miroslaw looked at Cool Jan and nodded. \"I think this is fine,\" he said.",
+                "translation": "Милый Мирослав посмотрел на Крутого Яна и кивнул. «Думаю, это нормально», — сказал он."
+            },
+            {
+                "english": "Cool Jan looked back to the group of kids and said, \"Yeah, we gave them a lot of {{word}}.\"",
+                "translation": "Кул Джен оглянулся на группу детей и сказал: «Да, мы подарили им много {{счастья}}»."
+            },
+            {
+                "english": "We all ran to the kids and joined their {{word}} of finding buried treasure.",
+                "translation": "Мы все подбежали к детям и присоединились к их {{празднованию}} находки зарытого клада."
+            }
+        ],
+        "words": [
+            "visit",
+            "waterproof",
+            "treasure",
+            "bury",
+            "chocolate",
+            "decided",
+            "stuffed",
+            "sand",
+            "walked",
+            "competition",
+            "find",
+            "found",
+            "excited",
+            "celebration",
+            "dizzy",
+            "vote",
+            "dirt",
+            "happiness"
         ]
     }
 ]

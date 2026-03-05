@@ -56,6 +56,9 @@ const styles = {
             transform: 'translateY(-4px)',
         },
         transition: 'all 0.3s ease',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     contentContainer: {
         display: 'flex',
@@ -86,6 +89,8 @@ const styles = {
         gap: 2,
         overflow: 'auto',
         maxHeight: '100vh',
+        pr: 3,
+        pb: 2,
     },
     notebookPage: {
         display: 'flex',
@@ -196,7 +201,7 @@ export default function Stories() {
                                     setDraggedWord(null);
                                 }}
                             >
-                                <CardContent sx={{ cursor: 'pointer' }}>
+                                <CardContent sx={{ cursor: 'pointer' }} className="story-name">
                                     <Typography variant="h6">{story.name}</Typography>
                                 </CardContent>
                             </Card>
@@ -248,6 +253,45 @@ export default function Stories() {
         ));
     };
 
+    const renderTranslationContent = (sentenceIndex) => {
+        const sentence = story.sentences[sentenceIndex];
+        const translation = sentence.translation;
+        const insertedWord = insertedWords[sentenceIndex];
+
+        if (!translation) {
+            return null;
+        }
+
+        // Match anything between double curly brackets: {{something}}
+        const regex = /\{\{([^}]+)\}\}/g;
+
+        if (!regex.test(translation)) {
+            return translation;
+        }
+
+        // Reset regex lastIndex for split/replace
+        regex.lastIndex = 0;
+
+        const parts = translation.split(regex);
+
+        return parts.map((part, idx) => {
+            // Odd indices are the content inside {{...}}
+            if (idx % 2 === 1) {
+                return (
+                    <Box
+                        key={idx}
+                        component="span"
+                        sx={{ fontWeight: insertedWord ? 'bold' : 'normal' }}
+                        className="translation-content-placeholder"
+                    >
+                        {insertedWord ? part : '_____'}
+                    </Box>
+                );
+            }
+            return <span key={idx}>{part}</span>;
+        });
+    };
+
     return (
         <Box sx={styles.container}>
             <Box sx={styles.titleHeader}>
@@ -260,9 +304,9 @@ export default function Stories() {
                 </Typography>
             </Box>
 
-            <Box sx={styles.contentContainer}>
+            <Box sx={styles.contentContainer} className="contentContainer">
                 {/* Left Column - Words */}
-                <Box sx={styles.leftColumn(story.image)}>
+                <Box sx={styles.leftColumn(story.image)} className="left-column">
                     {shuffledAvailableWords.map((word, index) => (
                         <Card
                             key={index}
@@ -282,11 +326,13 @@ export default function Stories() {
                 </Box>
 
                 {/* Right Column - Sentences */}
-                <Box sx={styles.rightColumn}>
-                    <Paper sx={{ p: 2 }}>
-                        <Typography sx={styles.sentenceText}>{story.introduction.english}</Typography>
-                        <Typography sx={styles.translationText}>{story.introduction.translation}</Typography>
-                    </Paper>
+                <Box sx={styles.rightColumn} className="right-column">
+                    {story?.introduction && (
+                        <Paper sx={{ p: 2 }}>
+                            <Typography sx={styles.sentenceText}>{story.introduction.english}</Typography>
+                            <Typography sx={styles.translationText}>{story.introduction.translation}</Typography>
+                        </Paper>
+                    )}
                     <Paper sx={styles.notebookPage}>
                         {story.sentences.map((sentence, index) => {
                             const hasPlaceholder = sentence.english.includes('{{word}}');
@@ -346,7 +392,7 @@ export default function Stories() {
                                         </Typography>
                                         {sentence.translation && (
                                             <Typography sx={styles.translationText}>
-                                                {sentence.translation}
+                                                {renderTranslationContent(index)}
                                             </Typography>
                                         )}
                                     </Box>
