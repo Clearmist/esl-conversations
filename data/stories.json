@@ -511,7 +511,7 @@
         "sentences": [
             {
                 "english": "Lazy Carey came to {{word}} Fat Al, Cool Jan, and Cute Miroslaw. She was holding a small metal box.",
-                "translation": "Ленивая Кэри {{пришла}} навестить Толстяка Эла, Крутого Яна и Милого Мирослава. Она держала в руках маленькую металлическую коробочку."
+                "translation": "Ленивая Кэри пришла {{навестить}} Толстяка Эла, Крутого Яна и Милого Мирослава. Она держала в руках маленькую металлическую коробочку."
             },
             {
                 "english": "Everybody was interested in the box. Cute Miroslaw said, \"This metal box is {{word}}.\"",
