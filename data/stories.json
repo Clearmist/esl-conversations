@@ -598,5 +598,85 @@
             "dirt",
             "happiness"
         ]
+    },
+    {
+        "name": "Being supportive",
+        "image": "friends-being-supportive.jpg",
+        "sentences": [
+            {
+                "english": "Cool Jan and Cute Miroslaw met Tall Anna and Angry Andy at the beach to {{word}} soccer.",
+                "translation": "Крутой Ян и милый Мирослав встретились с высокой Анной и злым Энди на пляже, чтобы {{поиграть}} в футбол."
+            },
+            {
+                "english": "They saw Big Al sitting on the {{word}} and watching the ocean.",
+                "translation": "Они увидели, как Большой Эл сидит на {{песке}} и смотрит на океан."
+            },
+            {
+                "english": "Tall Anna said, \"Al is very {{word}} because his dog died this morning. He was very old.\"",
+                "translation": "Высокая Анна сказала: «Элу очень {{грустно}}, потому что сегодня утром умерла его собака. Она была очень старой»."
+            },
+            {
+                "english": "We all {{word}} to help Al instead of playing soccer.",
+                "translation": "Мы все {{решили}} помочь Элу вместо того, чтобы играть в футбол."
+            },
+            {
+                "english": "\"I have an idea,\" said Jan.",
+                "translation": "«У меня есть идея», — сказал Ян."
+            },
+            {
+                "english": "Jan slapped Al on the shoulder and said, \"Let's go {{word}}! We'll get some cool shoes then ride our bikes to show off!\"",
+                "translation": "Ян хлопнул Эла по плечу и сказал: «Пойдем по {{магазинам}}! Купим классные кроссовки, а потом покатаемся на велосипедах, чтобы похвастаться!»"
+            },
+            {
+                "english": "Al {{word}} at Jan with sad eyes and said, \"No thanks.\"",
+                "translation": "Эл {{посмотрел}} на Ян печальными глазами и сказал: «Нет, спасибо»."
+            },
+            {
+                "english": "\"Hmm, let me try,\" said Miroslaw.",
+                "translation": "«Хм, дайте-ка я попробую», — сказал Мирослав."
+            },
+            {
+                "english": "Miroslaw did soccer {{word}} in front of Al. It was very impressive. Everyone laughed and clapped except Al.",
+                "translation": "Мирослав показал Элу футбольные {{трюки}}. Это было очень впечатляюще. Все смеялись и аплодировали, кроме Эла."
+            },
+            {
+                "english": "\"Okay, my turn,\" said Andy.",
+                "translation": "«Хорошо, теперь моя очередь», — сказал Энди."
+            },
+            {
+                "english": "Andy told Al, \"When I'm sad I push away the {{word}} by yelling loudly.\" Andy yelled at the ocean then looked at Al, but Al said, \"I don't think that will work.\"",
+                "translation": "Энди сказал Элу: «Когда мне грустно, я заглушаю эти {{чувства}} громким криком». Энди крикнул в сторону океана, затем посмотрел на Эла, но Эл сказал: «Думаю, это не сработает»."
+            },
+            {
+                "english": "Jan, Miroslaw, Andy, and Anna stood {{word}} watching Al with concern.",
+                "translation": "Ян, Мирослав, Энди и Анна стояли {{вместе}}, с беспокойством наблюдая за Элом."
+            },
+            {
+                "english": "Anna walked to Al and asked, \"What do you {{word}} right now?\"",
+                "translation": "Анна подошла к Элу и спросила: «Что тебе сейчас {{нужно}}?»"
+            },
+            {
+                "english": "Al {{word}} weakly at her and said, \"Just sit with me.\"",
+                "translation": "Эл слабо {{улыбнулся}} ей и сказал: «Просто сядь со мной»."
+            },
+            {
+                "english": "Al sat on the beach watching the sunset with his {{word}} friends and felt a little better.",
+                "translation": "Эл сидел на пляже, наблюдая за закатом в компании своих {{отзывчивых}} друзей, и почувствовал себя немного лучше."
+            }
+        ],
+        "words": [
+            "play",
+            "sand",
+            "sad",
+            "decided",
+            "shopping",
+            "looked",
+            "tricks",
+            "feelings",
+            "together",
+            "need",
+            "smiled",
+            "supportive"
+        ]
     }
 ]

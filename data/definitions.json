@@ -424,7 +424,6 @@
             "dirty",
             "angry",
             "lazy",
-            "fat",
             "tall",
             "hungry",
             "delicious",
@@ -475,6 +474,38 @@
             "vote",
             "dirt",
             "happiness"
+        ]
+    },
+    {
+        "name": "Friends: Being Supportive",
+        "entries": [
+            "play",
+            "sand",
+            "sad",
+            "decided",
+            "shopping",
+            "looked",
+            "tricks",
+            "feelings",
+            "together",
+            "need",
+            "smiled",
+            "supportive"
+        ]
+    },
+    {
+        "name": "Friends: Up the Stairs",
+        "entries": [
+            "stairs",
+            "outside",
+            "both",
+            "buying",
+            "three",
+            "visit",
+            "together",
+            "scare",
+            "down",
+            "laughed"
         ]
     }
 ]
